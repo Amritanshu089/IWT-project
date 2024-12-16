@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">My Website</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <i class="cart-icon">&#128722;</i>
+        </div>
+    </header>
+
+    <main class="product-page">
+        <section class="product-details">
+            <div class="product-image">
+                <img src="product1.jpg" alt="Product 1" id="main-product-image">
+                <div class="product-thumbnails">
+                    <img src="product1.jpg" alt="Thumbnail 1" onclick="changeImage(this)">
+                    <img src="product1-alt.jpg" alt="Thumbnail 2" onclick="changeImage(this)">
+                    <img src="product1-side.jpg" alt="Thumbnail 3" onclick="changeImage(this)">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <h1>Elegant Product 1</h1>
+                <p class="price">$29.99</p>
+                <p class="description">
+                    This is an elegant, high-quality product designed for your needs. Perfect for any occasion!
+                </p>
+                <div class="actions">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" value="1" min="1">
+                    <button class="btn add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <p><strong>Jane Doe:</strong> "Absolutely love this product! High quality and looks amazing."</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="review">
+                <p><strong>John Smith:</strong> "Great value for the price. Highly recommend."</p>
+                <p>⭐⭐⭐⭐</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website | Designed with ♥</p>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>
+
+

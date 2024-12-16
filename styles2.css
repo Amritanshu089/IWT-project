@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #a67564;
+    color: #d9d2cc;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #d9d2cc;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d9b18e;
+}
+
+.product-page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.product-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px #a67564;
+}
+
+.product-thumbnails {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.product-thumbnails img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.product-thumbnails img:hover {
+    transform: scale(1.1);
+}
+
+.product-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.product-info h1 {
+    font-size: 2rem;
+    color: #723e31;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #a67564;
+    margin: 1rem 0;
+}
+
+.description {
+    font-size: 1rem;
+    color: #723e31;
+    margin-bottom: 1rem;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.actions input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #d9d2cc;
+    border-radius: 5px;
+}
+
+.actions .btn {
+    background: #a67564;
+    color: #d9d2cc;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.actions .btn:hover {
+    background: #723e31;
+}
+
+.product-reviews {
+    margin-top: 3rem;
+}
+
+.product-reviews h2 {
+    color: #723e31;
+    margin-bottom: 1rem;
+}
+
+.review {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #d9d2cc;
+    border-radius: 5px;
+    background: #d9d2cc;
+}
